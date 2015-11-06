@@ -106,6 +106,8 @@ $output .= "<rowElement>";
 return $output;
 }
 
+
+
 function getFormattedDetails($conn, $req)
 {
 	$result = $conn->query("SELECT * FROM CandidatesInConsideration WHERE Req_Number='" . $req . "'");
